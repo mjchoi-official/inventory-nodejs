@@ -1,0 +1,19 @@
+node_modules/
+
+# 환경변수 (.env.example 은 커밋 OK)
+.env
+
+# SSH 키 — 절대 커밋 금지
+ssh-key.pem
+upload_files/
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+
+# 로그 / OS
+*.log
+.DS_Store
+
+# Jest 커버리지 리포트
+coverage/
